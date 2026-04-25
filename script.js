@@ -13,6 +13,7 @@ if(bpm > 100 || spo2 < 95 || temp > 37.5){
     document.getElementById("status").style.color = "red";
     document.body.style.background = "#ffe5e5";
 }
+
 else{
     document.getElementById("status").innerHTML = "Stable";
     document.getElementById("status").style.color = "green";
