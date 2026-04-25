@@ -3,6 +3,7 @@ setInterval(function(){
 let bpm = Math.floor(Math.random() * 20) + 70;
 let spo2 = Math.floor(Math.random() * 3) + 97;
 let temp = (36 + Math.random()).toFixed(1);
+
 document.getElementById("bpm").innerHTML = bpm + " BPM";
 document.getElementById("spo2").innerHTML = spo2 + "%";
 document.getElementById("temp").innerHTML = temp + " °C";
