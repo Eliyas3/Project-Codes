@@ -7,7 +7,6 @@ let temp = (36 + Math.random()).toFixed(1);
 document.getElementById("bpm").innerHTML = bpm + " BPM";
 document.getElementById("spo2").innerHTML = spo2 + "%";
 document.getElementById("temp").innerHTML = temp + " °C";
-
 if(bpm > 100 || spo2 < 95 || temp > 37.5){
     document.getElementById("status").innerHTML = "Critical";
     document.getElementById("status").style.color = "red";
