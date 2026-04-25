@@ -19,5 +19,4 @@ else{
     document.getElementById("status").style.color = "green";
     document.body.style.background = "#f4f6f9";
 }
-
 },2000);
