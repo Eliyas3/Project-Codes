@@ -26,7 +26,6 @@ void setup() {
 void loop() {
 
   bpm = random(70, 100);
-  
   spo2 = random(95, 100);
   temp = random(360, 380) / 10.0;
 
