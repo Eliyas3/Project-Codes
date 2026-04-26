@@ -22,7 +22,6 @@ void setup() {
 
   Serial.println("WiFi Connected");
 }
-
 void loop() {
 
   bpm = random(70, 100);
