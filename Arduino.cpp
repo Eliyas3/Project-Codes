@@ -12,6 +12,7 @@ float temp = 36.7;
 
 void setup() {
   Serial.begin(115200);
+  
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED) {
