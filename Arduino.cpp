@@ -9,6 +9,7 @@ String serverName = "http://YOUR_IP_ADDRESS/health_monitor/save.php";
 int bpm = 78;
 int spo2 = 98;
 float temp = 36.7;
+
 void setup() {
   Serial.begin(115200);
 
