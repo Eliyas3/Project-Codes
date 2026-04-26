@@ -14,7 +14,7 @@ void setup() {
   Serial.begin(115200);
 
   WiFi.begin(ssid, password);
-  
+
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Connecting...");
@@ -22,7 +22,6 @@ void setup() {
 
   Serial.println("WiFi Connected");
 }
-
 void loop() {
 
   bpm = random(70, 100);
