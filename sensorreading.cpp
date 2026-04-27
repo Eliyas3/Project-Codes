@@ -15,6 +15,5 @@ temp = random(360,380)/10.0;
 Serial.println(bpm);
 Serial.println(spo2);
 Serial.println(temp);
-
 delay(2000);
 }
