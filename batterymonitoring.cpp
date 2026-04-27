@@ -6,5 +6,5 @@ Serial.begin(115200);
 void loop(){
 int value = analogRead(batteryPin);
 Serial.println(value);
-delay(2000); 
+delay(2000);
 }
