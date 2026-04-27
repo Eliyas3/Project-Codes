@@ -17,4 +17,3 @@ Serial.println(spo2);
 Serial.println(temp);
 
 delay(2000);
-}
