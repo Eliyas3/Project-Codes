@@ -12,5 +12,5 @@ String data="bpm=78&spo2=98&temp=36.7";
 http.POST(data);
 http.end();
 
-deay(5000);
+delay(5000);
 }
