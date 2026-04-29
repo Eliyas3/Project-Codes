@@ -17,5 +17,5 @@ display.print("BPM: 78");
 display.setCursor(0,20);
 display.print("SpO2: 98%");
 display.display();
-elay(2000);
+delay(2000);
 }
