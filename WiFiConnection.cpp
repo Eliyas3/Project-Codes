@@ -13,7 +13,7 @@ Serial.println("Connecting...");
 }
 
 Serial.println("Connected");
-Serial.println(WFi.localIP());
+Serial.println(WiFi.localIP());
 }
 
 void loop(){}
