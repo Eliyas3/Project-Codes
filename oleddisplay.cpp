@@ -11,7 +11,7 @@ display.clearDisplay();
 void loop() {
 display.clearDisplay();
 display.setTextSize(1);
-display.setCursor(0,0);
+display.setCursor(00);
 display.print("BPM: 78");
 display.setCursor(0,20);
 display.print("SpO2: 98%");
