@@ -9,7 +9,7 @@ display.begin(SSD1306_SWITCHCAPVCC,0x3C);
 display.clearDisplay();
 }
 
-void loop() 
+void loop() {
 display.clearDisplay();
 display.setTextSize(1);
 display.setCursor(0,0);
