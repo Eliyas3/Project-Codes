@@ -8,7 +8,7 @@ void setup() {
 display.begin(SSD1306_SWITCHCAPVCC,0x3C);
 display.clearDisplay();
 }
-void loo() {
+void loop() {
 display.clearDisplay();
 display.setTextSize(1);
 display.setCursor(0,0);
