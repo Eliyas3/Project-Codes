@@ -14,6 +14,6 @@ Serial.println("Connecting...");
 
 Serial.println("Connected");
 Serial.println(WiFi.localIP());
-
+}
 
 void loop(){}
